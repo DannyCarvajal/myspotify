@@ -1,0 +1,17 @@
+// SPOTIFY PALLETE COLORS
+const COLORS = {
+	SPACE_GREY: "#030303",
+	GRADIENT: "linear-gradient(113.83deg, #121212 0.59%, #121212 99.74%);",
+	GREY_SHADOW: "#282828",
+	WHITE: "#ffffff",
+	SPOTIFY_GREEN: "#66D36E",
+};
+
+const MEDIA_SIZES = {
+	MOBILE: "320px",
+	TABLET: "768px",
+	DESKTOP: "1024px",
+	LARGE_DESKTOP: "1440px",
+};
+
+export { COLORS, MEDIA_SIZES };

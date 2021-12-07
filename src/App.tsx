@@ -1,23 +1,14 @@
-import React from 'react';
-import './App.css';
+// USING GLOBAL STYLES
+import { ThemeProvider } from 'styled-components';
+import { COLORS } from 'constants/globalStyles';
+import likedSongs from 'assets/icons/search.svg';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={COLORS}>
+      <h1>Hello mate</h1>
+      <img src={likedSongs} alt="songs" />
+    </ThemeProvider>
   );
 }
 
